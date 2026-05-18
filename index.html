@@ -1014,7 +1014,7 @@
     </video>
     <div class="info">
         <p>${video.titulo}</p>
-        <button class="btn-vip" onclick="abrirModalPartilha()" style="background: linear-gradient(135deg, #ff5f7e, #ff2e63); color: white; border: none; padding: 10px; border-radius: 50px; font-weight: bold; margin-top: 10px; cursor: pointer; width: 100%;">🔓 LIBERA ISSO</button>
+        <button class="btn-vip" onclick="abrirAcessoRapido()" style="background: linear-gradient(135deg, #ff5f7e, #ff2e63); color: white; border: none; padding: 10px; border-radius: 50px; font-weight: bold; margin-top: 10px; cursor: pointer; width: 100%;">🔓 LIBERA ISSO</button>
     </div>
 `;
             grid.appendChild(card);
@@ -1025,6 +1025,38 @@
             }
         });
     }
+
+
+function abrirAcessoRapido() {
+    if (acessoVipLiberado) {
+        document.getElementById('vipArea').style.display = 'block';
+        document.getElementById('vipArea').scrollIntoView({ behavior: 'smooth' });
+        return;
+    }
+    
+    // Fecha qualquer modal aberto
+    fecharModal();
+    
+    // Mostra a página inicial (caso esteja escondida)
+    document.getElementById('paginaInicial').style.display = 'block';
+    
+    // Rola suavemente até o card de ACESSO RÁPIDO
+    const cardAcesso = document.querySelector('#paginaInicial .card');
+    if (cardAcesso) {
+        cardAcesso.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    
+    // Opcional: piscar o card para chamar atenção
+    cardAcesso.style.transition = '0.3s';
+    cardAcesso.style.border = '2px solid #ff2e63';
+    setTimeout(() => {
+        cardAcesso.style.border = '';
+    }, 1000);
+}
+
+
+
+
     
     function carregarVideosVIP() {
         const grid = document.getElementById('vipVideosGrid');
