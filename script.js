@@ -21,47 +21,44 @@ const PREVIEWS = [
     { url: "https://files.catbox.moe/tzih2q.mp4", titulo: "💋 " },
     { url: "https://files.catbox.moe/gday6i.mp4", titulo: "🍑" },
     { url: "https://files.catbox.moe/8zp7m0.mp4", titulo: "💦 " },
-     { url: "https://files.catbox.moe/dr188d.mp4", titulo: "💦" },
-      { url: "https://files.catbox.moe/eg4umf.mp4", titulo: "💦" },
-
+    { url: "https://files.catbox.moe/dr188d.mp4", titulo: "💦" },
+    { url: "https://files.catbox.moe/eg4umf.mp4", titulo: "💦" },
 ];
 
 // Vídeos VIP (30 vídeos com títulos quentes)
 const VIP_VIDEOS = [
-     { url:  "https://files.catbox.moe/9o4l42.mp4", titulo: "🍑 De saia e nada mais" },
-         { url: "https://files.catbox.moe/c4lj9f.mp4", titulo: "🍑 Toma amor" },
-        { url: "https://files.catbox.moe/smgvxj.mp4", titulo: "💦 Gozei só de pensar" },
-        { url: "https://files.catbox.moe/znfj6w.mp4", titulo: "🔥 De ladinho pra ti" },
-        { url: "https://files.catbox.moe/9p0qb2.mp4", titulo: "💋 Gemendo baixinho" },
-        { url: "https://files.catbox.moe/2ob4xf.mp4", titulo: "🌙 Madrugada quente" },
-        { url: "https://files.catbox.moe/j8w2rl.mp4", titulo: "💦 Toda molhada" },
-        { url: "https://files.catbox.moe/f3psf6.mp4", titulo: "🔥 No escuro, só eu e tu" },
-        { url: "https://files.catbox.moe/znfj6w.mp4", titulo: "💋 A pedido dos fãs" },
-            { url: "https://files.catbox.moe/ycz90j.mp4", titulo: "🍑 Sem censura" },
-            { url: "https://files.catbox.moe/oc1679.mp4", titulo: "💦 Perdi a linha" },
-            { url: "https://files.catbox.moe/dxpgdl.mp4", titulo: "🔥 Toma que é teu" },
-            { url: "https://files.catbox.moe/fm43gm.mp4", titulo: "💋 Só para os meus reis" },
-            { url: "https://files.catbox.moe/1ckaro.mp4", titulo: "🍑 De frente pro espelho" },
-            { url: "https://files.catbox.moe/cz66tj.mp4", titulo: "💦 Quase gozei" },
-            { url: "https://files.catbox.moe/z5a1gc.mp4", titulo: "🔥 Acabei de acordar" },
-            { url: "https://files.catbox.moe/imhona.mp4", titulo: "💋 Chamei o teu nome" },
-            { url: "https://files.catbox.moe/x46z8i.mp4", titulo: "🍑 De calcinha e sem" },
-            { url: "https://files.catbox.moe/jushzq.mp4", titulo: "💦 Tu pediste, eu gravei" },
-            { url: "https://files.catbox.moe/closp0.mp4", titulo: "🔥 Era para ser só um story" },
-             { url: "https://files.catbox.moe/itgx9x.mp4", titulo: "💋 Toda suada" },
-            { url: "https://files.catbox.moe/mapb0z.mp4", titulo: "🍑 Toma amor" },
-            { url: "https://files.catbox.moe/hlamn9.mp4", titulo: "💦 Não consigo parar" },
-            { url: "https://files.catbox.moe/ua9t1e.mp4", titulo: "🔥 Só para os guerreiros" },
-            { url: "https://files.catbox.moe/45gcvd.mp4", titulo: "💋 A que mais pedem" },
-            { url: "https://files.catbox.moe/tmibg4.mp4", titulo: "🍑 De saia e nada mais" },
-            { url: "https://files.catbox.moe/0ppbku.mp4", titulo: "💦 Enquanto chovia lá fora" },
-            { url: "https://files.catbox.moe/fq2l8j.mp4", titulo: "🔥 Na cama sem pressa" },
-            { url: "https://files.catbox.moe/iuqrek.mp4", titulo: "💋 Tu mandas, eu obedeço" },
-            { url: "https://files.catbox.moe/0hfdjw.mp4", titulo: "🍑 O que ninguém viu" },
+    { url: "https://files.catbox.moe/9o4l42.mp4", titulo: "🍑 De saia e nada mais" },
+    { url: "https://files.catbox.moe/c4lj9f.mp4", titulo: "🍑 Toma amor" },
+    { url: "https://files.catbox.moe/smgvxj.mp4", titulo: "💦 Gozei só de pensar" },
+    { url: "https://files.catbox.moe/znfj6w.mp4", titulo: "🔥 De ladinho pra ti" },
+    { url: "https://files.catbox.moe/9p0qb2.mp4", titulo: "💋 Gemendo baixinho" },
+    { url: "https://files.catbox.moe/2ob4xf.mp4", titulo: "🌙 Madrugada quente" },
+    { url: "https://files.catbox.moe/j8w2rl.mp4", titulo: "💦 Toda molhada" },
+    { url: "https://files.catbox.moe/f3psf6.mp4", titulo: "🔥 No escuro, só eu e tu" },
+    { url: "https://files.catbox.moe/ycz90j.mp4", titulo: "🍑 Sem censura" },
+    { url: "https://files.catbox.moe/oc1679.mp4", titulo: "💦 Perdi a linha" },
+    { url: "https://files.catbox.moe/dxpgdl.mp4", titulo: "🔥 Toma que é teu" },
+    { url: "https://files.catbox.moe/fm43gm.mp4", titulo: "💋 Só para os meus reis" },
+    { url: "https://files.catbox.moe/1ckaro.mp4", titulo: "🍑 De frente pro espelho" },
+    { url: "https://files.catbox.moe/cz66tj.mp4", titulo: "💦 Quase gozei" },
+    { url: "https://files.catbox.moe/z5a1gc.mp4", titulo: "🔥 Acabei de acordar" },
+    { url: "https://files.catbox.moe/imhona.mp4", titulo: "💋 Chamei o teu nome" },
+    { url: "https://files.catbox.moe/x46z8i.mp4", titulo: "🍑 De calcinha e sem" },
+    { url: "https://files.catbox.moe/jushzq.mp4", titulo: "💦 Tu pediste, eu gravei" },
+    { url: "https://files.catbox.moe/closp0.mp4", titulo: "🔥 Era para ser só um story" },
+    { url: "https://files.catbox.moe/itgx9x.mp4", titulo: "💋 Toda suada" },
+    { url: "https://files.catbox.moe/mapb0z.mp4", titulo: "🍑 Toma amor" },
+    { url: "https://files.catbox.moe/hlamn9.mp4", titulo: "💦 Não consigo parar" },
+    { url: "https://files.catbox.moe/ua9t1e.mp4", titulo: "🔥 Só para os guerreiros" },
+    { url: "https://files.catbox.moe/45gcvd.mp4", titulo: "💋 A que mais pedem" },
+    { url: "https://files.catbox.moe/tmibg4.mp4", titulo: "🍑 De saia e nada mais" },
+    { url: "https://files.catbox.moe/0ppbku.mp4", titulo: "💦 Enquanto chovia lá fora" },
+    { url: "https://files.catbox.moe/fq2l8j.mp4", titulo: "🔥 Na cama sem pressa" },
+    { url: "https://files.catbox.moe/iuqrek.mp4", titulo: "💋 Tu mandas, eu obedeço" },
+    { url: "https://files.catbox.moe/0hfdjw.mp4", titulo: "🍑 O que ninguém viu" },
 ];
 
-
-      // Vídeos ELITE (21 vídeos com títulos ainda mais quentes)
+// Vídeos ELITE (21 vídeos com títulos ainda mais quentes)
 const ELITE_VIDEOS = [
     { url: "https://files.catbox.moe/mueh4o.mp4", titulo: "⭐ Sem roupa, sem vergonha" },
     { url: "https://files.catbox.moe/0abq36.mp4", titulo: "⭐ Gemendo o teu nome" },
@@ -85,7 +82,7 @@ const ELITE_VIDEOS = [
     { url: "https://files.catbox.moe/t9bnrs.mp4", titulo: "⭐ Vicia, eu avisei" }
 ];
 
-// Variáveis de estado
+// ==================== VARIÁVEIS GLOBAIS ====================
 let compartilhamentos = localStorage.getItem("shares") ? parseInt(localStorage.getItem("shares")) : 0;
 let aguardandoConfirmacao = false;
 let tempoInicioPartilha = null;
@@ -154,7 +151,11 @@ function atualizarContadorPartilhas() {
         msgDiv.innerHTML = `Partilhas realizadas: ${compartilhamentos}/10`;
         if (compartilhamentos > 0 && compartilhamentos < 10) {
             const faltam = 10 - compartilhamentos;
-            mostrarMensagem('shareStatusMsg', `✅ Falta pouco! Mais ${faltam} partilha(s) e ganhas acesso Grátis `, 'success');
+            mostrarMensagem('shareStatusMsg', `✅ Falta pouco! Mais ${faltam} partilha(s) e ganhas acesso Grátis!`, 'success');
+        } else if (compartilhamentos >= 10) {
+            if (document.getElementById('descontoModal')) {
+                document.getElementById('descontoModal').style.display = 'flex';
+            }
         }
     }
 }
@@ -178,14 +179,22 @@ async function confirmarPartilha() {
         const msgDiv = document.getElementById('shareStatusMsg');
         if (msgDiv) msgDiv.style.display = 'none';
         
+        // Tenta partilha nativa
         if (navigator.share) {
             await navigator.share(shareData);
         } else {
+            // Fallback para navegadores sem suporte (inclui WebView)
             const msgWhats = `🔥 Entra e desfruta dos melhores conteúdos VIPs! 🔥\n\n${LINK_PARTILHA}`;
-            navigator.clipboard.writeText(msgWhats);
-            mostrarMensagem('shareStatusMsg', '📋 Link copiado! Partilha no WhatsApp e volta', 'success');
+            await navigator.clipboard.writeText(msgWhats);
+            
+            // Tenta abrir WhatsApp em nova aba
+            const waLink = `https://api.whatsapp.com/send?phone=${NUMERO_COMPLETO}&text=${encodeURIComponent(msgWhats)}`;
+            window.open(waLink, '_blank');
+            
+            mostrarMensagem('shareStatusMsg', '📋 Link copiado e WhatsApp aberto! Partilha e volta ao site.', 'success');
         }
         
+        // Timer de 10 segundos
         timerTimeout = setTimeout(() => {
             const tempoDecorrido = (Date.now() - tempoInicioPartilha) / 1000;
             
@@ -243,7 +252,7 @@ function validarPINElite() {
 function pagarDireto() {
     const valor = 199;
     const mensagem = `💰 QUERO ACESSO VIP!%0A%0A✅ Vou pagar o valor de ${valor} MZN%0A👑 Quero meu acesso agora!`;
-      window.location.href = `https://api.whatsapp.com/send?phone=${NUMERO_COMPLETO}&text=${mensagem}`;
+    window.location.href = `https://api.whatsapp.com/send?phone=${NUMERO_COMPLETO}&text=${mensagem}`;
 }
 
 function pagarComDesconto() {
@@ -255,7 +264,7 @@ function pagarComDesconto() {
 function pagarElite() {
     const valor = 249;
     const mensagem = `⭐ QUERO ACESSO ELITE!%0A%0A💰 Vou pagar o valor de ${valor} MZN%0A👑 Quero meu acesso ELITE agora!`;
-     window.location.href = `https://api.whatsapp.com/send?phone=${NUMERO_COMPLETO}&text=${mensagem}`;
+    window.location.href = `https://api.whatsapp.com/send?phone=${NUMERO_COMPLETO}&text=${mensagem}`;
 }
 
 function abrirModalElite() {
@@ -295,59 +304,51 @@ function liberarAcessoElite() {
     setTimeout(() => switchTab('elite'), 500);
 }
 
-  function carregarPreviews() {
-        const grid = document.getElementById('previewsGrid');
-        if (!grid) return;
-        grid.innerHTML = '';
-        PREVIEWS.forEach(video => {
-            const card = document.createElement('div');
-            card.className = 'preview-card';
-         card.innerHTML = `
-    <video controls preload="metadata" loop muted>
-        <source src="${video.url}" type="video/mp4">
-    </video>
-    <div class="info">
-        <p>${video.titulo}</p>
-        <button class="btn-vip" onclick="abrirAcessoRapido()" style="background: linear-gradient(135deg, #ff5f7e, #ff2e63); color: white; border: none; padding: 10px; border-radius: 50px; font-weight: bold; margin-top: 10px; cursor: pointer; width: 100%;">🔓 LIBERA ISSO</button>
-    </div>
-`;
-            grid.appendChild(card);
-            const vid = card.querySelector('video');
-            if(vid) {
-                vid.play().catch(e => console.log);
-                vid.addEventListener('mouseenter', () => vid.play());
-            }
-        });
-    }
+function carregarPreviews() {
+    const grid = document.getElementById('previewsGrid');
+    if (!grid) return;
+    grid.innerHTML = '';
+    PREVIEWS.forEach(video => {
+        const card = document.createElement('div');
+        card.className = 'preview-card';
+        card.innerHTML = `
+            <video controls preload="metadata" loop muted>
+                <source src="${video.url}" type="video/mp4">
+            </video>
+            <div class="info">
+                <p>${video.titulo}</p>
+                <button class="btn-vip" onclick="abrirAcessoRapido()" style="background: linear-gradient(135deg, #ff5f7e, #ff2e63); color: white; border: none; padding: 10px; border-radius: 50px; font-weight: bold; margin-top: 10px; cursor: pointer; width: 100%;">🔓 LIBERA ISSO</button>
+            </div>
+        `;
+        grid.appendChild(card);
+        const vid = card.querySelector('video');
+        if(vid) {
+            vid.play().catch(e => console.log);
+            vid.addEventListener('mouseenter', () => vid.play());
+        }
+    });
+}
 
-    function abrirAcessoRapido() {
+function abrirAcessoRapido() {
     if (acessoVipLiberado) {
         document.getElementById('vipArea').style.display = 'block';
         document.getElementById('vipArea').scrollIntoView({ behavior: 'smooth' });
         return;
     }
     
-    // Fecha qualquer modal aberto
     fecharModal();
-    
-    // Mostra a página inicial (caso esteja escondida)
     document.getElementById('paginaInicial').style.display = 'block';
     
-    // Rola suavemente até o card de ACESSO RÁPIDO
     const cardAcesso = document.querySelector('#paginaInicial .card');
     if (cardAcesso) {
         cardAcesso.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        cardAcesso.style.transition = '0.3s';
+        cardAcesso.style.border = '2px solid #ff2e63';
+        setTimeout(() => {
+            cardAcesso.style.border = '';
+        }, 1000);
     }
-    
-    // Opcional: piscar o card para chamar atenção
-    cardAcesso.style.transition = '0.3s';
-    cardAcesso.style.border = '2px solid #ff2e63';
-    setTimeout(() => {
-        cardAcesso.style.border = '';
-    }, 1000);
 }
-
-
 
 function carregarVideosVIP() {
     const grid = document.getElementById('vipVideosGrid');
