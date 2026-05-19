@@ -149,8 +149,8 @@ function atualizarContadorPartilhas() {
     const msgDiv = document.getElementById('shareCountMsg');
     if (msgDiv) {
         msgDiv.innerHTML = `Partilhas realizadas: ${compartilhamentos}/10`;
-        if (compartilhamentos > 0 && compartilhamentos < 10) {
-            const faltam = 10 - compartilhamentos;
+        if (compartilhamentos > 0 && compartilhamentos < 2 ) {
+            const faltam = 2 - compartilhamentos;
             mostrarMensagem('shareStatusMsg', `✅ Falta pouco! Mais ${faltam} partilha(s) e ganhas acesso Grátis!`, 'success');
         } else if (compartilhamentos >= 10) {
             if (document.getElementById('descontoModal')) {
@@ -203,11 +203,11 @@ async function confirmarPartilha() {
                 localStorage.setItem("shares", compartilhamentos);
                 atualizarContadorPartilhas();
                 
-                if (compartilhamentos >= 10) {
+                if (compartilhamentos >= 2) {
                     fecharModal();
                     document.getElementById('descontoModal').style.display = 'flex';
                 } else {
-                    const faltam = 10 - compartilhamentos;
+                    const faltam = 2 - compartilhamentos;
                     mostrarMensagem('shareStatusMsg', `✅ Partilha confirmada! Faltam ${faltam} partilha(s) para ganhares acesso Grátis!`, 'success');
                 }
             } else {
