@@ -243,19 +243,19 @@ function validarPINElite() {
 function pagarDireto() {
     const valor = 199;
     const mensagem = `💰 QUERO ACESSO VIP!%0A%0A✅ Vou pagar o valor de ${valor} MZN%0A👑 Quero meu acesso agora!`;
-    window.location.href = `https://wa.me/${NUMERO_COMPLETO}?text=${mensagem}`;
+      window.location.href = `https://api.whatsapp.com/send?phone=${NUMERO_COMPLETO}&text=${mensagem}`;
 }
 
 function pagarComDesconto() {
     const valor = 99;
     const mensagem = `🎉 COMPLETEI AS 10 PARTILHAS!%0A%0A✅ Tenho direito aos 50%% de desconto!%0A💰 Valor a pagar: ${valor} MZN%0A👑 Quero meu acesso VIP agora!`;
-    window.location.href = `https://wa.me/${NUMERO_COMPLETO}?text=${mensagem}`;
+    window.location.href = `https://api.whatsapp.com/send?phone=${NUMERO_COMPLETO}&text=${mensagem}`;
 }
 
 function pagarElite() {
     const valor = 249;
     const mensagem = `⭐ QUERO ACESSO ELITE!%0A%0A💰 Vou pagar o valor de ${valor} MZN%0A👑 Quero meu acesso ELITE agora!`;
-    window.location.href = `https://wa.me/${NUMERO_COMPLETO}?text=${mensagem}`;
+     window.location.href = `https://api.whatsapp.com/send?phone=${NUMERO_COMPLETO}&text=${mensagem}`;
 }
 
 function abrirModalElite() {
@@ -464,17 +464,3 @@ console.log("%c🔥 SISTEMA PRONTO! 🔥", "color: #ff2e63; font-size: 16px;");
 console.log("📌 PINS VIP: 777X1001 até 777X1020");
 console.log("📌 PINS ELITE: ELITE001 até ELITE010");
 console.log(`📞 WhatsApp: ${NUMERO_COMPLETO}`);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
