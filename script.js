@@ -148,11 +148,11 @@ function mostrarMensagem(elementId, mensagem, tipo) {
 function atualizarContadorPartilhas() {
     const msgDiv = document.getElementById('shareCountMsg');
     if (msgDiv) {
-        msgDiv.innerHTML = `Partilhas realizadas: ${compartilhamentos}/10`;
+        msgDiv.innerHTML = `Partilhas realizadas: ${compartilhamentos}/2`;
         if (compartilhamentos > 0 && compartilhamentos < 2 ) {
             const faltam = 2 - compartilhamentos;
             mostrarMensagem('shareStatusMsg', `✅ Falta pouco! Mais ${faltam} partilha(s) e ganhas acesso Grátis!`, 'success');
-        } else if (compartilhamentos >= 10) {
+        } else if (compartilhamentos >= 2) {
             if (document.getElementById('descontoModal')) {
                 document.getElementById('descontoModal').style.display = 'flex';
             }
