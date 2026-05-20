@@ -257,7 +257,7 @@ function pagarDireto() {
 
 function pagarComDesconto() {
     const valor = 99;
-    const mensagem = `🎉 COMPLETEI AS 2 PARTILHAS!%0A%0A✅ Tenho direito aos 50%% de desconto!%0A💰 Valor a pagar: ${valor} MZN%0A👑 Quero meu acesso VIP agora!`;
+    const mensagem = `🎉 COMPLETEI AS 2 PARTILHAS!%0A%0A✅ Tenho direito aos 50% de desconto!%0A💰 Valor a pagar: ${valor} MZN%0A👑 Quero meu acesso VIP agora!`;
     window.location.href = `https://api.whatsapp.com/send?phone=${NUMERO_COMPLETO}&text=${mensagem}`;
 }
 
